@@ -1,0 +1,28 @@
+2024/05/18 07:58:58 [error] [php] file_put_contents(/Applications/XAMPP/xamppfiles/htdocs/prototipe/protected/runtime/gii-1.1.29/ModelCode.php): failed to open stream: Permission denied (/Applications/XAMPP/xamppfiles/htdocs/prototipe/yii/framework/gii/CCodeModel.php:388)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/prototipe/yii/framework/gii/CCodeModel.php(388): file_put_contents()
+#1 /Applications/XAMPP/xamppfiles/htdocs/prototipe/yii/framework/gii/CCodeGenerator.php(161): ModelCode->saveStickyAttributes()
+#2 /Applications/XAMPP/xamppfiles/htdocs/prototipe/yii/framework/gii/CCodeGenerator.php(63): ModelGenerator->prepare()
+#3 /Applications/XAMPP/xamppfiles/htdocs/prototipe/yii/framework/web/actions/CInlineAction.php(49): ModelGenerator->actionIndex()
+#4 /Applications/XAMPP/xamppfiles/htdocs/prototipe/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /Applications/XAMPP/xamppfiles/htdocs/prototipe/yii/framework/web/CController.php(286): ModelGenerator->runAction()
+#6 /Applications/XAMPP/xamppfiles/htdocs/prototipe/yii/framework/web/CController.php(265): ModelGenerator->runActionWithFilters()
+#7 /Applications/XAMPP/xamppfiles/htdocs/prototipe/yii/framework/web/CWebApplication.php(282): ModelGenerator->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/prototipe/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Applications/XAMPP/xamppfiles/htdocs/prototipe/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#10 /Applications/XAMPP/xamppfiles/htdocs/prototipe/index.php(28): CWebApplication->run()
+REQUEST_URI=/prototipe/index.php/gii/model/index
+2024/05/18 07:59:49 [error] [php] file_put_contents(/Applications/XAMPP/xamppfiles/htdocs/prototipe/protected/runtime/gii-1.1.29/ModelCode.php): failed to open stream: Permission denied (/Applications/XAMPP/xamppfiles/htdocs/prototipe/yii/framework/gii/CCodeModel.php:388)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/prototipe/yii/framework/gii/CCodeModel.php(388): file_put_contents()
+#1 /Applications/XAMPP/xamppfiles/htdocs/prototipe/yii/framework/gii/CCodeGenerator.php(161): ModelCode->saveStickyAttributes()
+#2 /Applications/XAMPP/xamppfiles/htdocs/prototipe/yii/framework/gii/CCodeGenerator.php(63): ModelGenerator->prepare()
+#3 /Applications/XAMPP/xamppfiles/htdocs/prototipe/yii/framework/web/actions/CInlineAction.php(49): ModelGenerator->actionIndex()
+#4 /Applications/XAMPP/xamppfiles/htdocs/prototipe/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /Applications/XAMPP/xamppfiles/htdocs/prototipe/yii/framework/web/CController.php(286): ModelGenerator->runAction()
+#6 /Applications/XAMPP/xamppfiles/htdocs/prototipe/yii/framework/web/CController.php(265): ModelGenerator->runActionWithFilters()
+#7 /Applications/XAMPP/xamppfiles/htdocs/prototipe/yii/framework/web/CWebApplication.php(282): ModelGenerator->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/prototipe/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Applications/XAMPP/xamppfiles/htdocs/prototipe/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#10 /Applications/XAMPP/xamppfiles/htdocs/prototipe/index.php(28): CWebApplication->run()
+REQUEST_URI=/prototipe/index.php/gii/model/index
